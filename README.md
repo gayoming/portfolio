@@ -1,2 +1,2 @@
 # portfolio
-이가연 포트폴리오
+Lee kayeun portfolio
