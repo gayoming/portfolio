@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/resetcss.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Jersey+20&display=swap" rel="stylesheet" />
+  <!--typing webfont-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jersey+15&family=Jersey+20&family=Orbitron:wght@400..900&display=swap"
+    rel="stylesheet" />
+  <!--web font button-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <!--swiper CSS-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!--swiper JS-->
+  <script src="https://kit.fontawesome.com/07902fa2dd.js" crossorigin="anonymous"></script><!--imotion-->
+  <script src="js/jquery-3.7.1.min.js"></script><!--jquery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+  <!--gsap scroll script-->
+  <script src="js/index.js" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!--nav menu area-->
+  <div id="wrapper1" class="container-fluid">
+    <nav class="navigation">
+      <div class="left">
+        <div class="logo">LEE KA YEUN</div>
+        <div class="sublogo">PORTFOLIO</div>
+      </div>
+
+      <div class="right">
+        <ul>
+          <li><a href="#aboutme">ABOUT ME</a></li>
+          <li><a href="#skill">MY SKILL</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--typing area-->
+    <div class="name">
+      <h1 class="intro-text">HELLO! I'M KAYEUN LEE</h1>
+      <div class="btn btn-circle">
+        <a href="#aboutme">
+        <i class="fa fa-angle-double-down"></i><br />
+        <p>scroll down</p>
+      </a>
+      </div>
+    </div>
+    <main>
+      <!--about area-->
+      <div class="box" id="aboutme">
+        <h1 class="text1">INTRODUCE</h1>
+        <div class="text2">
+          <img src="img/myimg.png" alt="myimg" />
+        </div>
+        <div class="text3">
+          <h1>PROFILE</h1>
+          <p>NAME &nbsp; &nbsp; 이가연</p>
+          <p>BIRTH &nbsp; &nbsp; 98.06.19</p>
+          <h1>EDUCATION</h1>
+          <p>수원과학대학교 호텔관광서비스과 졸업</p>
+          <p>웹 퍼블리셔&프론트엔드 개발과정 수료 (6개월)</p>
+          <h1>CERTIFICATE</h1>
+          <p>GTQ 1급 (23.04.12)</p>
+          <p>웹 디자인 기능사 (23.06 실기 예정)</p>
+          <p>SMAT 서비스경영 (20.07.28)</p>
+        </div>
+      </div>
+    </main>
+
+    <!--skill area-->
+    <div class="noite" id="skill">
+      <div class="constelacao"></div>
+
+      <div class="chuvaMeteoro"></div>
+
+      <div class="skills-circle-wrap">
+        <div class="skillbtn">MY SKILL</div>
+        <div class="skills-circle">
+          <div class="skill-orbit">
+            <div class="skill-planet">
+              <img src="img/Js.png" width="65px" height="65px" />
+            </div>
+          </div>
+          <div class="skill-orbit">
+            <div class="skill-planet">
+              <img src="img/CSS.png" width="65px" height="65px" />
+            </div>
+          </div>
+          <div class="skill-orbit">
+            <div class="skill-planet">
+              <img src="img/HTML.png" width="65px" height="65px" />
+            </div>
+          </div>
+          <div class="skill-orbit">
+            <div class="skill-planet">
+              <img src="img/Ps.png" width="50px" height="50px" />
+            </div>
+          </div>
+          <div class="skill-orbit">
+            <div class="skill-planet">
+              <img src="img/Ai.png" width="45px" height="45px" />
+            </div>
+          </div>
+          <div class="skill-orbit">
+            <div class="skill-planet">
+              <img src="img/react.png" width="45px" height="45px" />
+            </div>
+          </div>
+        </div>
+        <div class="skills-top-circle panel"></div>
+      </div>
+    </div>
+
+    <!--portfolio-->
+    <div id="portfolio" class="noite">
+      <div class="constelacao"></div>
+
+      <div class="chuvaMeteoro"></div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h1>PROJECT 1</h1>
+            <div class="wrap">
+              <div class="card">
+                <div class="front">
+                  <img src="img/EVERLAND.png" alt="에버랜드 사이트">
+                </div>
+                <div class="back">
+                  <div class="text">
+                    <h1>EVERLAND</h1>
+                    <p>팀프로젝트로 진행했습니다.</p>
+                    <p>모바일 버전만 있는 기존 사이트를 웹버전도<br>
+                      제작하여 웹 사용자에게 편리성을 주었습니다.
+                    </p>
+                    <p>기여도 : 50 %</p>
+                    <p>사용툴 : VS code ,Photoshop</p>
+                  </div>
+                </div><!--back-->
+              </div><!--card-->
+              <div class="button">
+                <div class="git"><a href="https://github.com/gayoming/everland" target="_blank"><i class="fa-brands fa-github"></i>Git hub</a></div>
+                <div class="hp"><a href="https://gayoming.github.io/everland/"  target="_blank">view more</a></div>
+              </div>
+            </div><!--wrap-->
+          </div><!--swiper slide-->
+          <div class="swiper-slide">
+            <h1>PROJECT 2</h1>
+            <div class="wrap">
+              <div class="card">
+                <div class="front">
+                  <img src="img/koreaplace2.png" alt="한국의 요기조기">
+                </div>
+                <div class="back">
+                  <div class="text">
+                    <h1>한국의 요기조기</h1>
+                    <p>개인 창작 사이트 입니다.</p>
+                    <p>모바일 버전 (max-width 600px) 반응형으로 제작했습니다.<br>
+                      사이트 내부 이미지는 모두 직접 만들었습니다.
+                    </p>
+                    <p>기여도 : 100 %</p>
+                    <p>사용툴 : VS code ,Photoshop</p>
+                  </div>
+                </div><!--back-->
+              </div><!--card-->
+              <div class="button">
+                <div class="git"><a href="https://github.com/gayoming/koreaplace" target="_blank"><i class="fa-brands fa-github"></i>Git
+                    hub</a></div>
+                <div class="hp"><a href="https://gayoming.github.io/koreaplace/" target="_blank">view more</a></div>
+              </div>
+            </div><!--wrap-->
+          </div>
+          <div class="swiper-slide">
+            <h1>PROJECT 3</h1>
+            <div class="wrap">
+              <div class="card">
+                <div class="front">
+                  <img src="img/koreaplace2.png" alt="한국의 요기조기">
+                </div>
+                <div class="back">
+                  <div class="text">
+                    <h1>한국의 요기조기</h1>
+                    <p>개인 창작 사이트 입니다.</p>
+                    <p>모바일 버전 (max-width 600px) 반응형으로 제작했습니다.
+                      사이트 내부 이미지는 모두 직접 만들었습니다.
+                    </p>
+                    <p>기여도 : 100%</p>
+                    <p>사용툴 : VS code ,Photoshop</p>
+                  </div>
+                </div><!--back-->
+              </div><!--card-->
+              <div class="button">
+                <div class="git"><a href="#"><i class="fa-brands fa-github"></i>Git hub</a></div>
+                <div class="hp"><a href="#">view more</a></div>
+              </div>
+            </div><!--wrap-->
+          </div>
+          <div class="swiper-slide">
+            <h1>PROJECT 4</h1>
+            <div class="wrap">
+              <div class="card">
+                <div class="front">
+                  <img src="img/EVERLAND.png" alt="에버랜드 사이트">
+                </div>
+                <div class="back">
+                  <div class="text">
+                    <h1>EVERLAND</h1>
+                    <p>팀프로젝트로 진행했습니다.</p>
+                    <p>모바일 버전만 있는 기존 사이트를 웹버전도
+                      제작하여 웹 사용자에게 편리성을 주었습니다.
+                    </p>
+                    <p>기여도 : 50%</p>
+                    <p>사용툴 : VS code ,Photoshop</p>
+                  </div>
+                </div><!--back-->
+              </div><!--card-->
+              <div class="button">
+                <div class="git"><a href="#"><i class="fa-brands fa-github"></i>Git hub</a></div>
+                <div class="hp"><a href="#">view more</a></div>
+              </div>
+            </div><!--wrap-->
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <footer>
+      <div id="contact">
+        <h1>CONTACT</h1>
+        <div>
+        <p>항상 발전하는 사람, 소통하는 사람이 되겠습니다</p>
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+          <li><i class="fa-solid fa-phone"></i><br><br>010-3402-0619</li>
+          <li><a href="mailto:km98619@naver.com"><i class="fa-regular fa-envelope"></i><br><br>km98619@naver.com<br>click me</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="copy">
+        <p>Thanks for my visiting my Website<br>
+          &copy;copyright 2023 LEE KAYEUN All right reserved.</p>
+      </div>
+
+    </footer>
+</body>
+
+
+</html>
