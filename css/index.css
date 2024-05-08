@@ -861,7 +861,7 @@ footer {
 }
 #contact p {
   font-family: "DungGeunMo";
-  margin: 100px;
+  margin: 50px;
   font-size: 1.3rem;
 }
 #contact ul {
@@ -869,6 +869,7 @@ footer {
   text-align: center;
   font-family: "DungGeunMo";
   justify-content: center;
+  margin-top: 100px;
 }
 #contact ul li {
   flex: 1;
