@@ -4,10 +4,14 @@ Lee kayeun portfolio
 gsap 플러그인을 사용하여 스크롤 이벤트를 적용시켰습니다
 gspa 사용법
 
-1.html 파일에 스크립트를 연결시켜준다
+            1.html 파일에 스크립트를 연결시켜준다
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
 
+
+
+
+                    
 2. gsap
   .timeline({
     scrollTrigger: {
