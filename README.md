@@ -6,6 +6,7 @@ gspa 사용법
 
 1.html 파일에 스크립트를 연결시켜준다
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
 
 2. gsap
